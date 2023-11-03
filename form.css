@@ -1,0 +1,133 @@
+ /* reset no Html*/
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+body{
+    background-color: #f0ebf8 ;
+
+    
+}
+h1, h2, h3, h4, h5 {
+   color: #131514; 
+}
+p, label{
+color: #0f0d0d;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+/* Alterar somente input text*/
+input[type="text"],
+input[type="file"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+/*page header*/
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #07133a;
+
+}
+.header h3 {
+color: #FFF;
+margin-top: 0;
+}
+/* form container*/
+.form-container{
+    background-image: url("image/carro.png");
+    background-repeat: no-repeat;
+    background-color: #dfdff9;
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    top: -62px;
+
+}
+/*form Header*/
+.form-header{
+    border-bottom: 1px solid #1c1a21;
+    height: 45px;
+}
+.form-header p{
+    color: #181d18;
+    border-bottom: 2px solid #0e0d11;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+@media screen and (max-width:500px){
+    .form-header p{
+        color: #FFF;
+    }
+
+}
+/* Form body */
+.form-body{
+    padding: 30px;
+}
+.form-title{
+    margin-bottom: 15px;
+}
+.form-body p {
+    margin-bottom: 20px;
+}
+.required-field{
+  color: #d80835;  
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+.block{
+    display: block;
+}
+.optional-box{
+    display: inline-block;
+    margin-right: 0 30px 30px 0;
+}
+.optional-box p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.box-input p {
+    margin-bottom: 15px;
+}
+.btn-submit{
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn-submit:hover{
+   background-color: #fff;
+   border-color: #673ab7;
+   color: #673ab7; 
+}
+@media screen and (min-width: 800px) {
+    .btn-submit{
+        color: #07133a;
+    }
+    
+}
